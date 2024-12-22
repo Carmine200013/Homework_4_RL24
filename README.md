@@ -21,7 +21,7 @@ After doing what was previously mentioned, in a new terminal you need to send:
 ```bash
 ros2 launch rl_fra2mo_description fra2mo_explore.launch.py
 ```
-Finally, in another terminal launch:
+Finally, to send the defined goals to the mobile platform in a given order, in another terminal launch:
 ```bash
 ros2 run rl_fra2mo_description follow_waypoints.launch.py
 ```
